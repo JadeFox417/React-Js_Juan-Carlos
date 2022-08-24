@@ -6,30 +6,30 @@
 
 3. Fitur yang disediakan oleh **Github** yaitu:
 
-    - `git init` (menginisialisasi repository)
+    - `git init` = menginisialisasi repository
 
-    - `git clone` (mengawali dengan project yang sudah ada)
+    - `git clone` = mengawali dengan project yang sudah ada
 
-    - `git config` (mengatur variabel pengaturan dalam GIT)
+    - `git config` = mengatur variabel pengaturan dalam GIT
 
-    - `git diff` (membandingkan perubahan versi sebelumnya dan versi terbaru)
+    - `git diff` = membandingkan perubahan versi sebelumnya dan versi terbaru
     
-    - `git stash` (menyimpan source code sementara)
+    - `git stash` = menyimpan source code sementara
 
-    - `git log` (melihat pembaharuan sesuai versioning)
+    - `git log` = melihat pembaharuan sesuai versioning
 
-    - `git reset` (mengembalikan ke versi sebelumnya)
+    - `git reset` = mengembalikan ke versi sebelumnya
 
-    - `git push` (mengirim perubahan file setelah dicommit) 
+    - `git push` = mengirim perubahan file setelah dicommit
     
-    - `git fetch` dan `git pull` (mengambil commit terbaru untuk disinkronkan)
+    - `git fetch` dan `git pull` = mengambil commit terbaru untuk disinkronkan
     
-    - `git branch` (membuat branch baru pada repositori)
+    - `git branch` = membuat branch baru pada repositori
     
-    - `git checkout master` (memindahkan workspace code editor ke master branch)
+    - `git checkout master` = memindahkan workspace code editor ke master branch
     
-    - `git add` (memindahkan file ke staged changes)
+    - `git add` = memindahkan file ke staged changes
     
-    - `git commit -m "adding feature"` (commit file dari staged changes ke Github repository dengan pesan "adding feature")
+    - `git commit -m "adding feature"` = commit file dari staged changes ke Github repository dengan pesan "adding feature"
     
-    - `git merge` (menggabungkan suatu branch ke branch lain)
+    - `git merge` = menggabungkan suatu branch ke branch lain

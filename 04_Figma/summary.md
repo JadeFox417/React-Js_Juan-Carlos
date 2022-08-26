@@ -1,6 +1,6 @@
 # Summary
 
-3 Poin yang dipelajari dari materi Figma:
+3 poin yang dipelajari dari materi Figma:
 
 1. Pengenalan tools yang dapat digunakan dalam membangun User Interface dan User Experience menggunakan Figma
 

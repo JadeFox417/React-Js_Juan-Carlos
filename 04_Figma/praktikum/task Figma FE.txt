@@ -1,0 +1,29 @@
+# Task Figma : Analysis Design Website
+
+1. Button
+    a. Warna dalam satuan rgb
+        Linear Gradient:
+        rgba(64, 223, 159, 1)
+        rgba(62, 213, 152, 1)
+
+    b. Shadow
+        Drop Shadow:
+        X=0
+        Y=2
+        B=4
+        S=0
+        Warna shadow: rgba(15, 218, 137, 0.3)
+
+    c. Background
+        linear-gradient(180deg, #40DF9F 0%, #3ED598 100%)
+
+    d. Box-shadow
+        0px 2px 4px rgba(15, 218, 137, 0.3)
+
+    e. Border-radius
+        12px
+
+2. Card
+    a. Width = 150px
+    b. Height = 210px
+    c. Radius = 25px

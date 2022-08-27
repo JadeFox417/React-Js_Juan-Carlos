@@ -1,0 +1,62 @@
+<!-- Task 2: Membuat file bernama form.html dengan design berikut. -->
+<!-- Menambahkan button "Sign Up" ketika form di submit dengan mengklik tombol "Sign Up" maka akan mengarah user ke halaman welcome.html. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 5 - HTML</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+
+    <form action="welcome.html">
+      <label for="firstName">First name:</label>
+      <br />
+      <!-- Create Text Box -->
+      <input type="text" name="firstName" id="firstName" />
+      <br />
+      <br />
+      <label for="LastName">Last name:</label>
+      <br />
+      <!-- Create Text Box -->
+      <input type="text" name="LastName" id="LastName" />
+      <br /><br />
+      <label for="Gender">Gender:</label><br />
+      <!-- Create radio button -->
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="Other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label for="Nasionality">Nasionality:</label><br />
+      <!-- Create drop-down list -->
+      <select name="Nasionality" id="Nasionality">
+        <option value="Indonesian">Indonesian</option>
+        <option value="German">British</option>
+        <option value="Italian">Malay</option>
+      </select>
+      <br /><br />
+
+      <label for="Languange">Language Spoken:</label><br />
+      <!-- Create checkbox -->
+      <input type="checkbox" name="bahasaIndonesia" id="bahasaIndonesia" value="bahasaIndonesia" />
+      <label for="bahasaIndonesia">Bahasa Indonesia</label><br />
+      <input type="checkbox" name="English" id="English" value="English" />
+      <label for="English">English</label><br />
+      <input type="checkbox" name="Other" id="Other" value="Other" />
+      <label for="Other">Other</label><br /><br />
+
+      <label for="Bio">Bio:</label><br />
+      <!-- Create Text Box -->
+      <textarea name="Bio" id="Bio" cols="40" rows="12"></textarea> <br />
+      <!-- Add button -->
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </form>
+  </body>
+</html>

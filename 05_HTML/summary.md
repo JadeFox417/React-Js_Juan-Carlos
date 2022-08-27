@@ -8,10 +8,9 @@ Berikut adalah summary dari pembelajaran HTML:
 
 3. Berbagai tag yang dapat digunakan dalam HTML seperti:
 
-- <p>
-- <ul>
-- <li>
-- <ol>
-- <b>
-
-dan sebagainya
+   - `<p>`
+   - `<ul>`
+   - `<li>`
+   - `<ol>`
+   - `<b>`
+     dan sebagainya

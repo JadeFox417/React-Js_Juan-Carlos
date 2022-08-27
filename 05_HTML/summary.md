@@ -13,5 +13,4 @@ Berikut adalah summary dari pembelajaran HTML:
    - `<li>`
    - `<ol>`
    - `<b>`
-
-     dan sebagainya
+   - dan sebagainya

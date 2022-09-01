@@ -23,6 +23,8 @@ There are 2 ways to import bootstrap in the project:
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
    ```
 
+For more details about the documentation, go through this [link](https://getbootstrap.com/docs/4.1/getting-started/introduction/).
+
 ## Simple Website Structure
 
 Most of the websites have these simple attribute on their welcome page:

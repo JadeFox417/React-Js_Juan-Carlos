@@ -62,7 +62,7 @@ Most of the websites have these simple attribute on their welcome page:
     - contact
 
       <p align="center">
-         Result
+         Welcome Page Header
 
          <img src="./screenshots/1_Navigation%20Bar.png" alt="navbar" width="1000"/>
 
@@ -70,12 +70,12 @@ Most of the websites have these simple attribute on their welcome page:
 
 2.  Create the body of content like the example
     <p align="center">
-      Body of Content 1
+      Welcome Page Body 1
 
       <img src="./screenshots/2_Content%201.png" alt="content1" width="1000"/>
     </p>
     <p align="center">
-      Body of Content 2
+      Welcome Page Body 2
 
       <img src="./screenshots/3_Content%202.png" alt="content2" width="1000"/>
     </p>
@@ -85,9 +85,9 @@ Most of the websites have these simple attribute on their welcome page:
     - about us
     - support
     - copyright bar
-    <p align="center">
-      Welcome Page Footer
-      
-      <img src="./screenshots/4_Footer.png" alt="footer" width="1000"/>
+      <p align="center">
+        Welcome Page Footer
+
+        <img src="./screenshots/4_Footer.png" alt="footer" width="1000"/>
 
     </p>

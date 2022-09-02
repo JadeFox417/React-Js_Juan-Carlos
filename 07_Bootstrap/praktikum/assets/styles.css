@@ -1,5 +1,8 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
 a {
-  color: grey !important;
+  color: black !important;
 }
 
 a:hover {
@@ -7,5 +10,9 @@ a:hover {
 }
 
 .navbar-brand span {
-  color: rgba(181, 225, 171, 1);
+  color: rgba(181, 225, 171, 1) !important;
+}
+
+img {
+  margin-top: 50px;
 }

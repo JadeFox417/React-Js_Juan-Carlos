@@ -47,3 +47,47 @@ Most of the websites have these simple attribute on their welcome page:
    - Message box
 4. Footer
    - copyright
+
+# Bootstrap Practice
+
+1.  Create a responsive header (navigation bar) like the example, that contains:
+
+    - home
+    - about
+    - features
+    - screenshots
+    - team
+    - pricing
+    - dropdown
+    - contact
+
+      <p align="center">
+         Result
+
+         <img src="./screenshots/1_Navigation%20Bar.png" alt="navbar" width="1000"/>
+
+      </p>
+
+2.  Create the body of content like the example
+    <p align="center">
+      Body of Content 1
+
+      <img src="./screenshots/2_Content%201.png" alt="content1" width="1000"/>
+    </p>
+    <p align="center">
+      Body of Content 2
+
+      <img src="./screenshots/3_Content%202.png" alt="content2" width="1000"/>
+    </p>
+
+3.  Create webpage footer like the example, that contains:
+
+    - about us
+    - support
+    - copyright bar
+    <p align="center">
+      Welcome Page Footer
+      
+      <img src="./screenshots/4_Footer.png" alt="footer" width="1000"/>
+
+    </p>

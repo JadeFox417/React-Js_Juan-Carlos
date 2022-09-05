@@ -9,13 +9,18 @@ function perkenalan() {
   return console.log("perkenalkan nama saya " + nama + " nomor urut " + a + " sekarang sedang mengikuti " + b + " berasal dari " + asal);
 }
 
-if (terdaftar === true) {
+// 1b. Change the if condition into false.
+if (terdaftar === false) {
   console.log(nama + " terdaftar sebagai kegiatan kampus merdeka");
 }
 
 a = b;
-nama = b;
 
-console.log("asal diakses =  " + asal);
+// 1a.Take value of index 2 on the lengkap_arr.
+console.log("array = " + lengkap_arr[2]);
+
 console.log("a adalah = " + a);
 console.log("b adalah = " + b);
+
+// 1c. Call the "perkenalan" function.
+perkenalan();

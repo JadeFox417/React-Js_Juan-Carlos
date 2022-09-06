@@ -46,3 +46,63 @@ Control flow used for manage the execution flow on the program statement accordi
 | ---------------------------------- | ----------------------------------------------------------------- |
 | Repetition ( Looping / Iteration ) | for, while, do while                                              |
 | Conditioning ( Branching )         | if ... else, switch, block, try ... catch, break, continue, throw |
+
+# JavaScript Refreshment Practice
+
+## 1. Recreate the JavaScript code so the output will be same as the example
+
+<p align="center">
+    Output for Task 1:
+    <br><br>
+    <img src="./screenshots/output_task1.png" alt="task 1: output" width="1000"/>
+</p>
+
+## 2. Answer the given question
+
+     a. Explain why line 21, 22, 23 cannot be displayed?
+
+    Answer: The function will run if the value of "terdaftar" assigned as true. So, line 21, 22, 23 cannot be displayed because the value of "terdaftar" assigned as false ( on line 4 ).
+
+    b. Explain why declaration on line 26 cause an error?
+
+    Answer: Declaration on line 26 cause error because "nama" declared with const, which cannot be changed.
+
+    c. By commenting on line 26, is line 28 can be executed? explain it.
+
+    Answer: By commenting on line 26, line 28 still cannot be executed. Its because of "asal" is declared inside of "perkenalan" function, which is not globally accessible.
+
+## 3. Destructuring the JavaScript code
+
+    Store "Budi" in variable a
+    Store "Sita" in variable b
+    Store "Ayu" in variable c
+
+<p align="center">
+    Output for Task 3:
+    <br><br>
+    <img src="./screenshots/output_task3.png" alt="task 3: output" width="100"/>
+</p>
+
+## 4. Change the (-) symbol into (/) symbol for each element on the array
+
+<p align="center">
+    Output for Task 4:
+    <br><br>
+    <img src="./screenshots/output_task4.png" alt="task 4: output" width="250"/>
+</p>
+
+## 5. Multiply each of element on array (named as "value") by 2
+
+<p align="center">
+    Output for Task 5:
+    <br><br>
+    <img src="./screenshots/output_task5.png" alt="task 5: output" width="200"/>
+</p>
+
+## 6. Round each value on array (arr)
+
+<p align="center">
+    Output for Task 6:
+    <br><br>
+    <img src="./screenshots/output_task6.png" alt="task 6: output" width="150"/>
+</p>

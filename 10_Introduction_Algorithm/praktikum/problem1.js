@@ -14,6 +14,6 @@ function isPrime(number) {
   }
 }
 
-let result = isPrime(3) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);
-// let result = isPrime(7) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);
-// let result = isPrime(10) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);
+const result = isPrime(3) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);
+const result1 = isPrime(7) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);
+const result2 = isPrime(10) ? console.log(`Prime Number`) : console.log(`Not Prime Number`);

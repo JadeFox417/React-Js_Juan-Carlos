@@ -37,13 +37,13 @@ Given a number, the program need to determine is the number prime or not.
 <p align="center">
     Flow Chart for Problem 1:
     <br><br>
-    <img src="./screenshots/problem1_flowchart.png" alt="problem 1: flow chart" width="1000"/>
+    <img src="./screenshots/problem1_flowchart.png" alt="problem 1: flow chart" width="500"/>
 </p>
 
 <p align="center">
     Output for Problem 1:
     <br><br>
-    <img src="./screenshots/problem1.png" alt="problem 1: output" width="1000"/>
+    <img src="./screenshots/problem1.png" alt="problem 1: output" width="500"/>
 </p>
 
 ## 2. Light and Button
@@ -53,11 +53,11 @@ There are N button from 1 to N and a light with off state. If button-i pressed, 
 <p align="center">
     Flow Chart for Problem 2:
     <br><br>
-    <img src="./screenshots/problem2_flowchart.png" alt="problem 2: flow chart" width="1000"/>
+    <img src="./screenshots/problem2_flowchart.png" alt="problem 2: flow chart" width="500"/>
 </p>
 
 <p align="center">
     Output for Problem 2:
     <br><br>
-    <img src="./screenshots/problem2.png" alt="problem 2: output" width="1000"/>
+    <img src="./screenshots/problem2.png" alt="problem 2: output" width="500"/>
 </p>

@@ -32,7 +32,7 @@ Flowchart is a chart with specific symbol that represent the sequence and relati
 
 ## 1. Is Prime Number
 
-Given a number, the program need to determine is the number prime or not.
+Given a number, the program needs to determine is the number prime or not.
 
 <p align="center">
     Flow Chart for Problem 1:
@@ -48,7 +48,7 @@ Given a number, the program need to determine is the number prime or not.
 
 ## 2. Light and Button
 
-There are N button from 1 to N and a light with off state. If button-i pressed, the light's state will changes (from off => on || from on => off) if N divisible by i. If each button is pressed exactly once, what will the state of the light be in the end?
+There are N buttons from 1 to N and a light with off state. If button-i pressed, the light's state will changes (from off => on || from on => off) if N is divisible by i. If each button is pressed exactly once, what will the light's state be in the end?
 
 <p align="center">
     Flow Chart for Problem 2:

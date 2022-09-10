@@ -27,3 +27,37 @@ Flowchart is a chart with specific symbol that represent the sequence and relati
     <br><br>
     <img src="https://i.pinimg.com/originals/99/91/24/9991246baa761e7cede10df3113d9193.jpg" width="500"/>
 </p>
+
+# Introduction Algorithm Practice
+
+## 1. Is Prime Number
+
+Given a number, the program need to determine is the number prime or not.
+
+<p align="center">
+    Flow Chart for Problem 1:
+    <br><br>
+    <img src="./screenshots/problem1_flowchart.png" alt="problem 1: flow chart" width="1000"/>
+</p>
+
+<p align="center">
+    Output for Problem 1:
+    <br><br>
+    <img src="./screenshots/problem1.png" alt="problem 1: output" width="1000"/>
+</p>
+
+## 2. Light and Button
+
+There are N button from 1 to N and a light with off state. If button-i pressed, the light's state will changes (from off => on || from on => off) if N divisible by i. If each button is pressed exactly once, what will the state of the light be in the end?
+
+<p align="center">
+    Flow Chart for Problem 2:
+    <br><br>
+    <img src="./screenshots/problem2_flowchart.png" alt="problem 2: flow chart" width="1000"/>
+</p>
+
+<p align="center">
+    Output for Problem 2:
+    <br><br>
+    <img src="./screenshots/problem2.png" alt="problem 2: output" width="1000"/>
+</p>

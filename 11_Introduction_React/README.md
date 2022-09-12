@@ -21,3 +21,13 @@ React is a JavaScript library for building fast and interactive User Interfaces 
 ## Virtual DOM
 
 DOM manipulation is the heart of the modern interactive web. To manipulate DOM in React, it requires Virtual DOM. Virtual DOM is a representation of the User Interface in the form of JavaScript Object that are stored in memory.
+
+# Introduction React Practice
+
+Create new react project and then create new file "home.js". Modify home.html from [resources](https://drive.google.com/drive/folders/1Nw2lg57SE3sKkhD5QAO9rhvfsE6ELR_X?usp=sharing) into home.js.
+
+<p align="center">
+    Homepage:
+    <br><br>
+    <img src="./screenshots/homepage.png" alt="task 1: output" width="1000"/>
+</p>

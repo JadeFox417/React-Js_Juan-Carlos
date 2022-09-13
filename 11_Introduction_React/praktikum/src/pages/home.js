@@ -3,7 +3,7 @@ import fotoProfil from "../assets/img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
 import "../assets/css/main.css";
 import "../assets/css/bootstrap.min.css";
 
-const HOME = () => {
+const Home = () => {
   return (
     <div className="home-background">
       <header>
@@ -58,4 +58,4 @@ const HOME = () => {
   );
 };
 
-export default HOME;
+export default Home;

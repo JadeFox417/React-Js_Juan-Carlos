@@ -15,8 +15,10 @@ Statefull component is the Class component that have state. The advantages of Cl
 
 Stateless component is the component that have not state. Generally, stateless components are created using Function because the code is more concise.
 
-Below is the differrences between stateless component with statefull component:
-
+<p align="center">
+    Below is the differrences between stateless component with statefull component:
+    <br><br>
+    
 | Stateless Component               | Statefull Component                   |
 | --------------------------------- | ------------------------------------- |
 | Don't know about the app          | Know about the app                    |
@@ -24,6 +26,8 @@ Below is the differrences between stateless component with statefull component:
 | The main purpose is visualization | Interaction with the app              |
 | Reusable                          | Not reusable                          |
 | Only communicate with the parent  | Forward status and data to the childs |
+
+</p>
 
 ## Event Handling in React
 

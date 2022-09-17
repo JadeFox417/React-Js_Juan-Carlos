@@ -106,3 +106,13 @@ On React, we have 3 ways to style our website. They are:
 1. Classes and CSS
 2. Style Attribute
 3. CSS Module
+
+# React Fundamental Practice
+
+Build "To Do List" application using React. The list have 3 field: id (number), name (string), and completed (boolean). If completed = true, to do activity will crossed out.
+
+<p align="center">
+    Home Page:
+    <br><br>
+    <img src="./screenshots/HomePage.png" alt="ToDoApp: Home" width="1000"/>
+</p>

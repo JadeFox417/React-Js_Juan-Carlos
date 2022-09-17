@@ -1,7 +1,8 @@
 import { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
-import ToDoList from "./toDoList";
-import "./home.css";
+import ToDoList from "./ToDoList";
+import ToDoInput from "./ToDoInput";
+import "../App.css";
 
 class Home extends Component {
   constructor(props) {
@@ -10,12 +11,12 @@ class Home extends Component {
       datas: [
         {
           id: uuidv4(),
-          title: "Mengerjakan Exercise",
+          title: "Do Exercise",
           completed: true,
         },
         {
           id: uuidv4(),
-          title: "Mengerjakan Assignment",
+          title: "Do Assignment",
           completed: false,
         },
       ],
@@ -34,11 +35,23 @@ class Home extends Component {
     this.setState({ datas: [...this.state.datas, newList] });
   };
 
+  handleCheckBox = (id) => {
+    const checkedBox = this.state.datas.findIndex((datas) => datas.id === id);
+    let data = [...this.state.datas];
+
+    if (checkedBox !== -1) {
+      data[checkedBox].completed = !data[checkedBox].completed;
+    }
+
+    this.setState({ datas: data });
+  };
+
   render() {
     return (
       <div>
         <h1 className="title">todos</h1>
-        <ToDoList datas={this.state.datas} deleteToDo={this.deleteToDo} />
+        <ToDoInput addToDo={this.addToDo} />
+        <ToDoList datas={this.state.datas} deleteToDo={this.deleteToDo} handleCheckBox={this.handleCheckBox} />
       </div>
     );
   }

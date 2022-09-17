@@ -1,17 +1,13 @@
-import ListItem from "./listItem";
+import ListItem from "./ListItem";
 
 const ToDoList = (props) => {
-  const { datas, deleteToDo } = props;
+  const { datas, deleteToDo, handleCheckBox } = props;
   return (
     <div>
-      <table>
-        <thead>
-          <td>Title</td>
-          <td>Completed</td>
-        </thead>
+      <table cellPadding="5px" cellSpacing="0" style={{ margin: "auto" }}>
         <tbody>
           {datas.map((toDo) => (
-            <ListItem key={toDo.id} item={toDo} deleteToDo={deleteToDo} />
+            <ListItem key={toDo.id} item={toDo} deleteToDo={deleteToDo} handleCheckBox={handleCheckBox} />
           ))}
         </tbody>
       </table>

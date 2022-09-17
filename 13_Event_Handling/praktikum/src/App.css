@@ -1,3 +1,8 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e8e8e8;
+}
+
 .App {
   text-align: center;
 }
@@ -5,8 +10,36 @@
 .title {
   font-size: 8vw;
   background: linear-gradient(to right, #eeff00 30%, #42aafa 70%);
+  background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.addBar {
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  margin: auto;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px #aaaaaa;
+}
+
+.input {
+  width: 80%;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #e8e8e8;
+}
+
+.buttonSubmit {
+  color: rgb(9, 171, 123);
+  padding: 10px;
+  font-size: medium;
+  border: none;
+  background-color: #e8e8e8;
 }
 
 .lineThrough {
@@ -19,8 +52,34 @@
   display: inline-block;
 }
 
-.checkbox {
-  width: 30px;
-  display: inline-block;
+.toDoList {
+  width: 500px;
   margin: auto;
+  border-collapse: collapse;
+}
+
+.checkBox {
+  width: 30px;
+  margin: auto;
+  display: inline-block;
+}
+
+.row {
+  border-bottom: 1pt solid white;
+}
+
+.list {
+  text-align: left;
+}
+
+.listButton {
+  text-align: right;
+}
+
+.buttonDelete {
+  color: red;
+  text-align: right;
+  font-size: medium;
+  border: none;
+  background-color: #e8e8e8;
 }

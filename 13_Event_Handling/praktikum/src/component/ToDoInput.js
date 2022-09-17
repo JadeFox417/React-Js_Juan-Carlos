@@ -34,9 +34,11 @@ class ToDoInput extends Component {
   render() {
     return (
       <div>
-        <div onSubmit={() => {}}>
-          <input type="text" placeholder="Add todo..." value={this.state.title} name="title" onChange={this.onChange}></input>
-          <button onClick={this.handleSubmit}>Submit</button>
+        <div className="addBar" onSubmit={() => {}}>
+          <input type="text" placeholder="Add todo..." value={this.state.title} name="title" onChange={this.onChange} className="input"></input>
+          <button className="buttonSubmit" onClick={this.handleSubmit}>
+            Submit
+          </button>
         </div>
       </div>
     );

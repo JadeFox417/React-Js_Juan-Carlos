@@ -1,19 +1,20 @@
 const ListItem = ({ item, deleteToDo, handleCheckBox }) => {
   return (
-    <tr>
-      <td>
+    <tr className="row">
+      <td className="list">
         <input
           onChange={() => {
             handleCheckBox(item.id);
           }}
-          className="checkbox"
+          className="checkBox"
           type={"checkbox"}
           {...(item.completed === true ? { checked: "checked" } : { checked: "" })}
         />
         <p className={`${item.completed === true ? "lineThrough" : "normal"}`}> {item.title} </p>
       </td>
-      <td>
+      <td className="listButton">
         <button
+          className="buttonDelete"
           onClick={() => {
             deleteToDo(item.id);
           }}

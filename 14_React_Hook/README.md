@@ -98,7 +98,7 @@ useEffect is Hooks effect that can allow us to do side effects inside function c
 
 ## 3. Custom Hooks
 
-Custom Hooks make our Hooks to extract logic component to reusable function. Custom Hooks are a convention that naturally follows from the design of Hooks, rather than a React feature. A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks. For example, we have a custom Hooks called 'useFriendStatus' that will return is someone(friend) online or not:
+Custom Hooks make our Hooks to extract logic component to reusable function. Custom Hooks are a convention that naturally follows from the design of Hooks, rather than a React feature. A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks. For example, we have a custom Hooks called 'useFriendStatus' that will return is someone (friend) online or not:
 
 ```jsx
 import { useState, useEffect } from "react";

@@ -120,3 +120,23 @@ function useFriendStatus(friendID) {
   return isOnline;
 }
 ```
+
+# React Hooks Practice
+
+Refactoring the code for **To Do List App** in previous (Event Handling) practice. Modify Class Component into Function Component by changing the lifecycle method and state management into React Hooks.
+
+<p align="center">
+    Homepage:
+    <br><br>
+    <img src="./screenshots/homepage.png" alt="homepage" width="1000"/>
+</p>
+<p align="center">
+    After Adding New Action:
+    <br><br>
+    <img src="./screenshots/afterAddToDo.png" alt="afterAddToDo" width="1000"/>
+</p>
+<p align="center">
+    When Input Is Empty:
+    <br><br>
+    <img src="./screenshots/inputIsEmpty.png" alt="inputIsEmpty" width="1000"/>
+</p>

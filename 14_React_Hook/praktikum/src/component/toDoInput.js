@@ -31,7 +31,7 @@ function ToDoInput(props) {
 
   return (
     <div>
-      <div className="addBar" onSubmit={() => {}}>
+      <div className="addBar">
         <input type="text" placeholder="Add todo..." value={data.title} name="title" onChange={onChange} className="input"></input>
         <button className="buttonSubmit" onClick={handleSubmit}>
           Submit

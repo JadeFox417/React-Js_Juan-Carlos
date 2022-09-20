@@ -33,3 +33,29 @@ Event handling is a method for handling an event that received from the user to 
 2. Form Events (onChange, onSubmit)
 3. Mouse Events (onClick, onDoubleClick, onMouseOver)
 4. Generic Events (onError, onLoad)
+
+# Event Handling Practice
+
+Build "To Do List" App with below criterias:
+
+1. Allowed to add new action
+2. There is checkbox for each action
+3. Checklist the checkbox if action finished
+4. Provide delete button to delete action
+5. Give alert if the input is empty
+
+<p align="center">
+    Homepage:
+    <br><br>
+    <img src="./screenshots/homepage.png" alt="homepage" width="1000"/>
+</p>
+<p align="center">
+    After Adding New Action:
+    <br><br>
+    <img src="./screenshots/afterAddToDo.png" alt="afterAddToDo" width="1000"/>
+</p>
+<p align="center">
+    When Input Is Empty:
+    <br><br>
+    <img src="./screenshots/inputIsEmpty.png" alt="inputIsEmpty" width="1000"/>
+</p>

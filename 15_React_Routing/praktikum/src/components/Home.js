@@ -1,7 +1,9 @@
+import React from "react";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import ToDoList from "./toDoList";
-import ToDoInput from "./toDoInput";
+import ToDoList from "./ToDoList";
+import ToDoInput from "./ToDoInput";
+import NavBar from "./NavBar";
 import "../App.css";
 
 const initialValue = [
@@ -46,7 +48,8 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="App">
+      <NavBar />
       <h1 className="title">todos</h1>
       <ToDoInput addToDo={addToDo} />
       <ToDoList datas={data} deleteToDo={deleteToDo} handleCheckBox={handleCheckBox} />

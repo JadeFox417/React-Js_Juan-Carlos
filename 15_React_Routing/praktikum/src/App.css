@@ -83,3 +83,49 @@ body {
   border: none;
   background-color: #e8e8e8;
 }
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  background: transparent;
+  border: none;
+  position: fixed;
+  left: 45px;
+  top: 45px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: darkcyan;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 250px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+.navItem {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #54f6d0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 8em;
+}

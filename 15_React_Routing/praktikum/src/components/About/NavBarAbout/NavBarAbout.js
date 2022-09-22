@@ -11,7 +11,7 @@ const NavBarAbout = () => {
             home
           </Link>
           <Link to="/about/about-app" className="navItemAbout">
-            about
+            about app
           </Link>
           <Link to="/about/about-author" className="navItemAbout">
             about author

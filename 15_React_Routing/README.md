@@ -82,7 +82,7 @@ Task Result:
 <p align="center">
     Homepage (NavBar is Shown):
     <br><br>
-    <img src="./screenshots/home_navBar.png" alt="Homepage NavBar" width="1000"/>
+    <img src="./screenshots/homeNavBar.png" alt="Homepage NavBar" width="1000"/>
 </p>
 
 <p align="center">

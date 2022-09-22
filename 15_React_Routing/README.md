@@ -102,5 +102,5 @@ If the entered path not found in the route, **Page Not Found** will be displayed
 <p align="center">
     Page Not Found:
     <br><br>
-    <img src="./screenshots/page_notFound.png" alt="Page Not Found" width="1000"/>
+    <img src="./screenshots/pageNotFound.png" alt="Page Not Found" width="1000"/>
 </p>

@@ -60,3 +60,47 @@ General hook routing in React are:
 3. useRouteMatch
 
    useRouteMatch try to match current URL in the same way as `<Route>`. This is mostly useful for getting access to match data without actually rendering `<Route>`.
+
+# React Routing Practice
+
+Continue "To Do List App" on React Hook section by adding:
+
+1. Create navbar using link, home with path: "/" and about with path "/about".
+2. For page about, create new navbar contains of About App with path: "/about/about-app" and About Author with path: "/about/about-author".
+3. If the entered path not found in the route, show page not found.
+4. If the link leads to the same page, add replace or redirect so the browser history is not added (optional, plus value).
+5. Free design for icon and navbar layout but the concept should be the same.
+
+Task Result:
+
+<p align="center">
+    Homepage (NavBar is Hidden):
+    <br><br>
+    <img src="./screenshots/home.png" alt="Homepage" width="1000"/>
+</p>
+
+<p align="center">
+    Homepage (NavBar is Shown):
+    <br><br>
+    <img src="./screenshots/home_navBar.png" alt="Homepage NavBar" width="1000"/>
+</p>
+
+<p align="center">
+    About-App:
+    <br><br>
+    <img src="./screenshots/about-app.png" alt="About-App" width="1000"/>
+</p>
+
+<p align="center">
+    About-Author:
+    <br><br>
+    <img src="./screenshots/about-author.png" alt="About-Author" width="1000"/>
+</p>
+
+If the entered path not found in the route, **Page Not Found** will be displayed. After 2 seconds, the page will redirect to the Homepage.
+
+<p align="center">
+    Page Not Found:
+    <br><br>
+    <img src="./screenshots/page_notFound.png" alt="Page Not Found" width="1000"/>
+</p>

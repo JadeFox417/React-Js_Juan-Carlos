@@ -59,3 +59,58 @@ We need to validate the form input before entering the system database. For exam
 5. pattern => used to determine regular expression (regex) that define the data pattern as the input of the form.
 
 If we use the built-in form validation from HTML5, we can not change the error message because it's already set. As the alternative, we can use logic in JavaScript to validate the data input and edit the error message if it not validated.
+
+# React Form Practice
+
+Create Registration Form for Bootcamp Coding with criterias:
+
+1. Field "Full Name" is mandatory and only receive alphabed
+2. Field "Email" is mandatory and receive a valid email
+3. Field "Phone Number" is mandatory and in range 9-14 character
+4. Field "Education Background" is mandatory with radio type
+5. Field "Preffered Coding Class" is mandatory with option:
+   - Coding Backend with Golang
+   - Coding Frontend with ReactJS
+   - Fullstack Developer
+6. Field "Letter of Statement" is mandatory and receive a file
+7. Field "Expectation for this Bootcamp Coding" is optional
+8. Button "Submit" is mandatory and has function to submit and reset the form
+9. Button "Reset" is not mandatory and has function to reset the form and error message.
+
+Task Result:
+
+<p align="center">
+    Registration Bootcamp Coding Participant Form
+    <br><br>
+    <img src="./screenshots/Empty_Form.png" alt="empty_form" width="1000"/>
+</p>
+
+<p align="center">
+    Error: full name must be character
+    <br><br>
+    <img src="./screenshots/Error_FullName.png" alt="error_fname" width="1000"/>
+</p>
+
+<p align="center">
+    Error: email is not valid
+    <br><br>
+    <img src="./screenshots/Error_Email.png" alt="error_email" width="1000"/>
+</p>
+
+<p align="center">
+    Error: phone number is not valid
+    <br><br>
+    <img src="./screenshots/Error_PhoneNumber.png" alt="error_hp" width="1000"/>
+</p>
+
+<p align="center">
+    Registration Failed Alert: Participant data does not match
+    <br><br>
+    <img src="./screenshots/Error_OnSubmit.png" alt="alert_failed" width="1000"/>
+</p>
+
+<p align="center">
+    Registration Succeed Alert: Participant data (fullName) successfully received
+    <br><br>
+    <img src="./screenshots/Success_OnSubmit.png" alt="alert_succeed" width="1000"/>
+</p>

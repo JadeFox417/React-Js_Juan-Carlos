@@ -38,7 +38,7 @@ const MyForm = () => {
     }
 
     if (name === "phoneNumber") {
-      // Because index start from 0, so range {9-14} become {8-13}
+      // Because index start from 0, so range {9-14} becomes {8-13}
       if (data.phoneNumber.length <= 13 && data.phoneNumber.length >= 8) {
         setErrorMsg("");
       } else {

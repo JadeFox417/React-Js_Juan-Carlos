@@ -115,7 +115,7 @@ const MyForm = () => {
 
         <label htmlFor="expectation">
           Expectation for this Bootcamp Coding:
-          <textarea required name="expectation" className="textArea" value={data.expectation} onChange={handleInput} />
+          <textarea name="expectation" className="textArea" value={data.expectation} onChange={handleInput} />
         </label>
 
         <div className="errorMsg">{errorMsg}</div>

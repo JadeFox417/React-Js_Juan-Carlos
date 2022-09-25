@@ -1,0 +1,33 @@
+.navBarAbout {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #232323;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showMenuAbout {
+  width: 100%;
+  list-style: none;
+}
+
+.navItemAbout {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navItemAbout:active {
+  color: black;
+}

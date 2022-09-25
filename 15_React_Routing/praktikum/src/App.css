@@ -1,0 +1,131 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e8e8e8;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  font-size: 8vw;
+  background: linear-gradient(to right, #eeff00 30%, #42aafa 70%);
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.addBar {
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  margin: auto;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px #aaaaaa;
+}
+
+.input {
+  width: 80%;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #e8e8e8;
+}
+
+.buttonSubmit {
+  color: rgb(9, 171, 123);
+  padding: 10px;
+  font-size: medium;
+  border: none;
+  background-color: #e8e8e8;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+.normal {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.toDoList {
+  width: 500px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.checkBox {
+  width: 30px;
+  margin: auto;
+  display: inline-block;
+}
+
+.row {
+  border-bottom: 1pt solid white;
+}
+
+.list {
+  text-align: left;
+}
+
+.listButton {
+  text-align: right;
+}
+
+.buttonDelete {
+  color: red;
+  text-align: right;
+  font-size: medium;
+  border: none;
+  background-color: #e8e8e8;
+}
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  background: transparent;
+  border: none;
+  position: fixed;
+  left: 45px;
+  top: 45px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: darkcyan;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 250px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+.navItem {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #54f6d0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 8em;
+}

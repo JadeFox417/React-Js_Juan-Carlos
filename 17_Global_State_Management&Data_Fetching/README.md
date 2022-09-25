@@ -50,7 +50,7 @@ There are some fields when we use Fetch API to fetch the data:
 
 ## Hasura
 
-The Hasura GraphQl Engine is a blazing-fast GraphQL server that gives you instant, realtime GraphQL APIs over Postgres, with webhook triggers on database events, and remote schemas for business logic. Before using the Hasura GraphQL Engine, we need to:
+The Hasura GraphQL Engine is a blazing-fast GraphQL server that gives you instant, realtime GraphQL APIs over Postgres, with webhook triggers on database events, and remote schemas for business logic. Before using the Hasura GraphQL Engine, we need to:
 
 1. Deploy the Hasura GraphQL engine, with access to a Postgres database to store its metadata.
 2. Connect new/existing database(s) and set up and test your GraphQL API using the Hasura console UI (also possible via CLI or API).

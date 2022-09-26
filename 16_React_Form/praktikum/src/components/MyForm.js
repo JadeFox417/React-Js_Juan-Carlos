@@ -11,8 +11,14 @@ const MyForm = () => {
     expectation: "",
   };
 
+  const initialErrorMsg = {
+    fullName: "",
+    email: "",
+    phoneNumber: "",
+  };
+
   const [data, setData] = useState(emptyData);
-  const [errorMsg, setErrorMsg] = useState();
+  const [errorMsg, setErrorMsg] = useState(initialErrorMsg);
   const nameRegex = /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/;
   const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
   const letter = useRef(null);
@@ -23,26 +29,44 @@ const MyForm = () => {
 
     if (name === "fullName") {
       if (nameRegex.test(value)) {
-        setErrorMsg("");
+        setErrorMsg({
+          ...errorMsg,
+          fullName: "",
+        });
       } else {
-        setErrorMsg("Full name must be character");
+        setErrorMsg({
+          ...errorMsg,
+          fullName: "Full name must be character",
+        });
       }
     }
 
     if (name === "email") {
       if (emailRegex.test(value)) {
-        setErrorMsg("");
+        setErrorMsg({
+          ...errorMsg,
+          email: "",
+        });
       } else {
-        setErrorMsg("Email is not valid");
+        setErrorMsg({
+          ...errorMsg,
+          email: "Email is not valid",
+        });
       }
     }
 
     if (name === "phoneNumber") {
       // Because index start from 0, so range {9-14} becomes {8-13}
       if (data.phoneNumber.length <= 13 && data.phoneNumber.length >= 8) {
-        setErrorMsg("");
+        setErrorMsg({
+          ...errorMsg,
+          phoneNumber: "",
+        });
       } else {
-        setErrorMsg("Phone Number is not valid");
+        setErrorMsg({
+          ...errorMsg,
+          phoneNumber: "Phone Number is not valid",
+        });
       }
     }
 
@@ -54,17 +78,17 @@ const MyForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (errorMsg !== "") {
-      alert(`Participant data does not match`);
-    } else {
+    if (!errorMsg.name && !errorMsg.email && !errorMsg.phoneNumber) {
       alert(`Participant data ${data.fullName} successfully received`);
       handleReset();
+    } else {
+      alert(`Participant data does not match`);
     }
   };
 
   const handleReset = () => {
     setData(emptyData);
-    setErrorMsg("");
+    setErrorMsg(initialErrorMsg);
   };
 
   return (
@@ -118,7 +142,9 @@ const MyForm = () => {
           <textarea name="expectation" className="textArea" value={data.expectation} onChange={handleInput} />
         </label>
 
-        <div className="errorMsg">{errorMsg}</div>
+        <div className="errorMsg">{errorMsg.fullName}</div>
+        <div className="errorMsg">{errorMsg.email}</div>
+        <div className="errorMsg">{errorMsg.phoneNumber}</div>
 
         <div className="activeButton">
           <input type="submit" />

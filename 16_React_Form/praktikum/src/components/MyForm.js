@@ -78,7 +78,7 @@ const MyForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!errorMsg.name && !errorMsg.email && !errorMsg.phoneNumber) {
+    if (!errorMsg.fullName && !errorMsg.email && !errorMsg.phoneNumber) {
       alert(`Participant data ${data.fullName} successfully received`);
       handleReset();
     } else {

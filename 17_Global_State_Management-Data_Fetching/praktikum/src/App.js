@@ -1,23 +1,20 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import AboutApp from "./components/About/AboutApp/AboutApp";
-import AboutAuthor from "./components/About/AboutAuthor/AboutAuthor";
-import NoPage from "./components/NoPage";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+
 import "./App.css";
+import Routers from "./router/Routers";
+import { store, persistedStore } from "./store/store";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about">
-          <Route path="about-app" element={<AboutApp />} />
-          <Route path="about-author" element={<AboutAuthor />} />
-        </Route>
-        <Route path="*" element={<NoPage />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistedStore}>
+          <Routers />
+        </PersistGate>
+      </Provider>
+    </div>
   );
 }
 

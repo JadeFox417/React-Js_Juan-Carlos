@@ -1,7 +1,11 @@
 import React from "react";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addToDo } from "../store/todoSlice";
 
-function ToDoInput(props) {
+function ToDoInput() {
+  const dispatch = useDispatch();
+
   const [data, setData] = useState({
     title: "",
     completed: false,
@@ -20,7 +24,7 @@ function ToDoInput(props) {
         completed: false,
       };
 
-      props.addToDo(newTodo);
+      dispatch(addToDo(newTodo));
       setData({
         title: "",
         completed: false,

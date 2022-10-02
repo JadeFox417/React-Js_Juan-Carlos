@@ -62,3 +62,16 @@ To create REST API:
 - Read => http://{baseurl}/api/rest/article
 - Update => http://{baseurl}/api/rest/article{id}
 - Delete => http://{baseurl}/api/rest/article{id}
+
+# Global State Management Practice
+
+Apply redux and redux-persist to "To Do List" App.
+
+Task Result:
+
+<p align="center">
+    Redux-persist with name "Root" store the data into google chrome local storage.
+    <br><br>
+    <img src="./screenshots/redux-persist.png" alt="redux-persist" width="1000"/>
+    
+</p>

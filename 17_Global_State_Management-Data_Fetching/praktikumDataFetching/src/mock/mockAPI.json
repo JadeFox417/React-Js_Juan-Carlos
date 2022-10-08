@@ -1,0 +1,13 @@
+[
+  {
+    "completed": false,
+    "id": "c77a0278-760c-47be-a0c1-2ea1bfa497f7",
+    "title": "Do Assignment"
+  },
+
+  {
+    "completed": true,
+    "id": "6c7c946a-240d-458f-8885-9b8e583a8db7",
+    "title": "Do Exercise"
+  }
+]

@@ -75,3 +75,16 @@ Task Result:
     <img src="./screenshots/redux-persist.png" alt="redux-persist" width="1000"/>
     
 </p>
+
+# Data Fetching Practice
+
+Store the database in Hasura and fetch the data to "To Do List" App.
+
+Task Result:
+
+<p align="center">
+    "To Do List App" will fetch the database from Hasura and show the list of todos to user.
+    <br><br>
+    <img src="./screenshots/data-fetching.png" alt="data-fetching" width="1000"/>
+    
+</p>

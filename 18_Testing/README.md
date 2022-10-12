@@ -43,3 +43,18 @@ There are 3 categories of handel testing in React:
    ```
 
    We can perform tests on the value, callback, and re-render of the custom hooks. Access this [link](https://react-hooks-testing-library.com/) to check full documentation of React Hooks Testing Library.
+
+# React Testing Practice
+
+Create testing file for the codes:
+
+- FormCoding.js
+- Search.js
+- useInputValue.js
+
+Task Result:
+
+<p align="center">
+    <br>
+    <img src="./screenshots/testing-result.png" alt="testing-result" width="1000"/>
+</p>

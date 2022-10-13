@@ -104,3 +104,83 @@ Then the result will be:
 Hasura is a service provide graphQL and rest API. Fully managed on hasura cloud or self-hosted. Go through this [link](https://hasura.io/) and create new graphQL server.
 
 Heroku is a cloud platform as a service supporting several programming languages. Heroku also provide free postgres database. Go through this [link](https://heroku.com/) and create service.
+
+# GraphQl Basic Practice
+
+Workflow task:
+
+1.  Open hasura and create database with name kampus_merdeka (I use neon database).
+
+2.  Create member table that contains id (primary key, auto increment) and name.
+
+3.  Create information table that contains id (primary key, auto increment), member_id, course, mark, and status (boolean).
+
+4.  Insert these datas to member table:
+
+    | id  | name  |
+    | --- | ----- |
+    | 1   | Budi  |
+    | 1   | Sita  |
+    | 3   | Angga |
+
+     <p align="center">
+         Member Table
+        <br><br>
+        <img src="./screenshots/Table-Member.png" alt="Table-Member" width="500"/>
+     </p>
+
+5.  Insert these datas to information table:
+
+    | id  | member_id | course             | mark | status |
+    | --- | --------- | ------------------ | ---- | ------ |
+    | 1   | 1         | Information System | 85   | true   |
+    | 2   | 1         | React              | 65   | false  |
+    | 3   | 2         | Information System | 90   | true   |
+    | 4   | 2         | React              | 50   | false  |
+
+    <p align="center">
+        Information Table
+        <br><br>
+        <img src="./screenshots/Table-Information.png" alt="Table-Information" width="800"/>
+     </p>
+
+6.  Create a query to view only members that have true status.
+
+       <p align="center">
+        <img src="./screenshots/Query-ViewTrueStatus.png" alt="Query-ViewTrueStatus" width="1000"/>
+
+    </p>
+
+7.  Create query to insert the below information about Angga on information table using mutation
+
+    | id  | member_id | course             | mark | status |
+    | --- | --------- | ------------------ | ---- | ------ |
+    | 5   | 3         | Information System | 90   | true   |
+    | 6   | 3         | React              | 55   | false  |
+
+    <p align="center">
+        Insert Information System course to Angga
+        <br><br>
+        <img src="./screenshots/Query-InsertNewInformation1.png" alt="Query-InsertNewInformation1" width="1000"/>
+     </p>
+     <p align="center">
+        Insert React course to Angga
+        <br><br>
+        <img src="./screenshots/Query-InsertNewInformation2.png" alt="Query-InsertNewInformation2" width="1000"/>
+     </p>
+
+    Below is the information table after add information about Angga course, mark, and status:
+     <p align="center">
+        <img src="./screenshots/Table-AfterInsertNewInformation.png" alt="Table-AfterInsertNewInformation" width="800"/>
+     </p>
+
+8.  Update false status into true using mutation query
+
+    <p align="center">
+        <img src="./screenshots/Query-UpdateStatusToTrue.png" alt="Query-UpdateStatusToTrue" width="1000"/>
+     </p>
+
+    Below is the information table after updated false status into true:
+     <p align="center">
+        <img src="./screenshots/Table-AfterUpdateStatusToTrue.png" alt="Table-AfterUpdateStatusToTrue" width="800"/>
+     </p>

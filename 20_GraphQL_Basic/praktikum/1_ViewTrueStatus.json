@@ -1,0 +1,14 @@
+query ViewTrueStatus {
+  member_connection(where: {information: {status: {_eq: true}}}) {
+    edges {
+      node {
+        id
+        name
+        information(where: {status: {_eq: true}}) {
+          course
+          mark
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+mutation UpdateStatusToTrue {
+  update_information_many(updates: {where: {status: {_eq: false}}, _set: {status: true}}) {
+    returning {
+      id
+      member_id
+      member {
+        name
+      }
+      course
+      mark
+      status
+    }
+  }
+}

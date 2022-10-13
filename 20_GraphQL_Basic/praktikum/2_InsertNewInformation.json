@@ -1,0 +1,29 @@
+mutation InsertNewInformation($object: information_insert_input!) {
+    insert_information_one(object: $object) {
+      id
+      member_id
+      course
+      mark
+      status
+    }
+}
+
+// Query Vaiables
+{
+    "object": {
+      "member_id": 3,
+      "course": "Information System",
+      "mark": 90,
+      "status": true
+    }
+}
+
+
+{
+    "object": {
+      "member_id": 3,
+      "course": "React",
+      "mark": 55,
+      "status": false
+    }
+}

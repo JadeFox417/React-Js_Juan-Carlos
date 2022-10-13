@@ -105,7 +105,7 @@ Hasura is a service provide graphQL and rest API. Fully managed on hasura cloud 
 
 Heroku is a cloud platform as a service supporting several programming languages. Heroku also provide free postgres database. Go through this [link](https://heroku.com/) and create service.
 
-# GraphQl Basic Practice
+# GraphQL Basic Practice
 
 Workflow task:
 

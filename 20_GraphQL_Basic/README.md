@@ -151,7 +151,7 @@ Workflow task:
 
     </p>
 
-7.  Create query to insert the below information about Angga on information table using mutation
+7.  Insert the below information about Angga on information table using mutation query.
 
     | id  | member_id | course             | mark | status |
     | --- | --------- | ------------------ | ---- | ------ |
@@ -174,7 +174,7 @@ Workflow task:
         <img src="./screenshots/Table-AfterInsertNewInformation.png" alt="Table-AfterInsertNewInformation" width="800"/>
      </p>
 
-8.  Update false status into true using mutation query
+8.  Update false status into true using mutation query.
 
     <p align="center">
         <img src="./screenshots/Query-UpdateStatusToTrue.png" alt="Query-UpdateStatusToTrue" width="1000"/>

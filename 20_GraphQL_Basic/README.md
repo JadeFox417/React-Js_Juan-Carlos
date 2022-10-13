@@ -50,7 +50,7 @@ Implementation:
 }
 ```
 
-Then the result of graphQL query above is:
+Then the results of graphQL query above are:
 
 ```
 {
@@ -101,6 +101,6 @@ Then the result will be:
 
 ## Hasura and Heroku
 
-Hasura is a service provide graphQL and rest API. Full managed on hasura cloud or self-hosted. Go through this [link](https://hasura.io/) and create new graphQL server.
+Hasura is a service provide graphQL and rest API. Fully managed on hasura cloud or self-hosted. Go through this [link](https://hasura.io/) and create new graphQL server.
 
 Heroku is a cloud platform as a service supporting several programming languages. Heroku also provide free postgres database. Go through this [link](https://heroku.com/) and create service.

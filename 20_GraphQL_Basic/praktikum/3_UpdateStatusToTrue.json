@@ -1,14 +1,40 @@
-mutation UpdateStatusToTrue {
-  update_information_many(updates: {where: {status: {_eq: false}}, _set: {status: true}}) {
-    returning {
-      id
-      member_id
-      member {
-        name
+{
+  "data": {
+    "update_information_many": [
+      {
+        "returning": [
+          {
+            "id": "WzEsICJwdWJsaWMiLCAiaW5mb3JtYXRpb24iLCAyXQ==",
+            "member_id": 1,
+            "member": {
+              "name": "Budi"
+            },
+            "course": "React",
+            "mark": 65,
+            "status": true
+          },
+          {
+            "id": "WzEsICJwdWJsaWMiLCAiaW5mb3JtYXRpb24iLCA0XQ==",
+            "member_id": 2,
+            "member": {
+              "name": "Sita"
+            },
+            "course": "React",
+            "mark": 50,
+            "status": true
+          },
+          {
+            "id": "WzEsICJwdWJsaWMiLCAiaW5mb3JtYXRpb24iLCA4XQ==",
+            "member_id": 3,
+            "member": {
+              "name": "Angga"
+            },
+            "course": "React",
+            "mark": 55,
+            "status": true
+          }
+        ]
       }
-      course
-      mark
-      status
-    }
+    ]
   }
 }

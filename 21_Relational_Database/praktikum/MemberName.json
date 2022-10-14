@@ -1,12 +1,56 @@
-query MemberName($member_id: Int_comparison_exp = {}) {
-    information_connection(where: {member_id: $member_id}) {
-      edges {
-        node {
-          member_id
-          member {
-            name
+{
+  "data": {
+    "information_connection": {
+      "edges": [
+        {
+          "node": {
+            "member_id": 1,
+            "member": {
+              "name": "Budi"
+            }
+          }
+        },
+        {
+          "node": {
+            "member_id": 2,
+            "member": {
+              "name": "Sita"
+            }
+          }
+        },
+        {
+          "node": {
+            "member_id": 3,
+            "member": {
+              "name": "Angga"
+            }
+          }
+        },
+        {
+          "node": {
+            "member_id": 1,
+            "member": {
+              "name": "Budi"
+            }
+          }
+        },
+        {
+          "node": {
+            "member_id": 2,
+            "member": {
+              "name": "Sita"
+            }
+          }
+        },
+        {
+          "node": {
+            "member_id": 3,
+            "member": {
+              "name": "Angga"
+            }
           }
         }
-      }
+      ]
     }
   }
+}

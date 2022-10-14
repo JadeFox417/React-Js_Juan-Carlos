@@ -1,0 +1,12 @@
+query MemberName($member_id: Int_comparison_exp = {}) {
+    information_connection(where: {member_id: $member_id}) {
+      edges {
+        node {
+          member_id
+          member {
+            name
+          }
+        }
+      }
+    }
+  }

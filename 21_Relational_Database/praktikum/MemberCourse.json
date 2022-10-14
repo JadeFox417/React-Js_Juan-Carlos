@@ -1,0 +1,13 @@
+query MemberCourse($id: Int_comparison_exp = {}) {
+    member_connection(where: {id: $id}) {
+      edges {
+        node {
+          id
+          name
+          information {
+            course
+          }
+        }
+      }
+    }
+  }

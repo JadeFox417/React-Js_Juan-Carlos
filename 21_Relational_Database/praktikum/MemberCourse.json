@@ -1,0 +1,50 @@
+{
+  "data": {
+    "member_connection": {
+      "edges": [
+        {
+          "node": {
+            "id": "WzEsICJwdWJsaWMiLCAibWVtYmVyIiwgMV0=",
+            "name": "Budi",
+            "information": [
+              {
+                "course": "Information System"
+              },
+              {
+                "course": "React"
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "id": "WzEsICJwdWJsaWMiLCAibWVtYmVyIiwgMl0=",
+            "name": "Sita",
+            "information": [
+              {
+                "course": "Information System"
+              },
+              {
+                "course": "React"
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "id": "WzEsICJwdWJsaWMiLCAibWVtYmVyIiwgM10=",
+            "name": "Angga",
+            "information": [
+              {
+                "course": "Information System"
+              },
+              {
+                "course": "React"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "member_connection": {
+      "edges": [
+        {
+          "node": {
+            "id": "WzEsICJwdWJsaWMiLCAibWVtYmVyIiwgMV0=",
+            "name": "Budi",
+            "information": [
+              {
+                "course": "Information System",
+                "mark": 85
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "id": "WzEsICJwdWJsaWMiLCAibWVtYmVyIiwgMl0=",
+            "name": "Sita",
+            "information": [
+              {
+                "course": "Information System",
+                "mark": 90
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

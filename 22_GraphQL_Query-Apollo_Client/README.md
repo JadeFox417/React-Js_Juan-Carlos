@@ -94,3 +94,24 @@ function TodoList() {
   }
 }
 ```
+
+# GraphQL Query and Apollo Client Practice
+
+1. Connect [this](https://github.com/muhammad-muchson/GrapQL_Query_task_starter.git) react project to GraphQL.
+2. Do a query to your database so when the page is rendered, it shows the passenger list after fetching it from the database.
+
+   <p align="center">
+   <img src="./screenshots/Query-Get_All_Passengers.png" alt="getAllPassengers" width="1000"/>
+   </p>
+
+   The screen will shows animated loading when the system is fetching the data from database.
+
+   <p align="center">
+   <img src="./screenshots/Fetching-Loading_Screen.png" alt="loading_screen" width="1000"/>
+   </p>
+
+3. Create a new feature to view passenger data by using query. It has a function for user to search the passenger data according to passenger id.
+
+   <p align="center">
+   <img src="./screenshots/Query-Get_Passenger_By_Id.png" alt="getPassengerById" width="1000"/>
+   </p>

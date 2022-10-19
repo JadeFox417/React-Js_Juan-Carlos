@@ -40,7 +40,7 @@ Create contact us section using Bootstrap that contains:
 1. Have 4 forms
 
    - first name, type: text
-   - last name, type:text
+   - last name, type: text
    - email, type: email
    - message, type: text area
 
@@ -59,5 +59,5 @@ Create contact us section using Bootstrap that contains:
    <p align="center">
    Screenshot for alert message after a user with name "Hello World" submit the form
    <br><br>
-   <img src="./screenshots/submitForm-alert.png" alt="alert" width="300"/>
+   <img src="./screenshots/submitForm-alert.png" alt="alert" width="500"/>
    </p>

@@ -100,3 +100,61 @@
      });
    };
    ```
+
+## GraphQL Mutation Practice
+
+Overview:
+
+<p align="center">
+Homepage Passenger Slice
+<br><br>
+<img src="./screenshots/homepage.png" alt="homepage" width="1000"/>
+</p>
+
+<p align="center">
+User able to edit or delete based on the passenger id
+<br><br>
+<img src="./screenshots/feature_byId.png" alt="feature_byId" width="1000"/>
+</p>
+
+1. Create submit feature on the passenger slice website
+
+   Result:
+
+   <p align="center">
+   User able to insert passanger data and submit it to the database
+   <br><br>
+   <img src="./screenshots/form_addPassenger.png" alt="form_addPassenger" width="1000"/>
+   </p>
+
+   <p align="center">
+   Passenger data has been successfully inputed into the database
+   <br><br>
+   <img src="./screenshots/after_addPassenger.png" alt="after_addPassenger" width="1000"/>
+   </p>
+
+2. Create update feature on the passenger slice website
+
+   Result:
+
+   <p align="center">
+   User able to update passanger data on the table list and click done to save it
+   <br><br>
+   <img src="./screenshots/updatePassenger.png" alt="updatePassenger" width="1000"/>
+   </p>
+
+   <p align="center">
+   Passenger data has been successfully updated into the newest version
+   <br><br>
+   <img src="./screenshots/after_updatePassenger.png" alt="after_updatePassenger" width="1000"/>
+   </p>
+
+3. Create delete feature on the passenger slice website
+
+   Result:
+
+   <p align="center">
+   User able to delete passanger data on the table list by clicking delete button
+   <br><br>
+   <img src="./screenshots/after_deletePassenger.png" alt="after_deletePassenger" width="1000"/>
+   </p>

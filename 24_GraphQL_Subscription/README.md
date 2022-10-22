@@ -102,3 +102,15 @@ function TodoList() {
         });
     }, []);
 ```
+
+# GraphQL Practice
+
+Continue the previous project (passenger slice) to implement subscription using GraphQL.
+
+Result:
+
+<p align="center">
+Successfully connected to the websocket
+<br><br>
+<img src="./screenshot/running_useSubscription.png" alt="running_useSubscription" width="1000"/>
+</p>

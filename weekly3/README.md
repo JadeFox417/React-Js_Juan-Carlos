@@ -17,7 +17,7 @@ Result:
 </p>
 
 <p align="center">
-    User's Table in Hasura
+    User's Table in Hasura:
     <br><br>
     <img src="./screenshots/UserTable.png" alt="UserTable" width="1000"/>
 </p>
